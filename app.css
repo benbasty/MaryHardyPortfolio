@@ -125,51 +125,46 @@ header .naming h1 {
     width: 40%;
     position: relative;
 }
-.banner .pic .image {
-    z-index: 100 !important;
-}
 
-
-.banner .pic .image img {
+.banner .pic img {
     width: 100%;
+    z-index: 100;
+    position: absolute;
 }
 
 .pic .circled-background {
-    position: relative;
+    position: absolute;
 }
 
 .circled-background .circle1 {
     background-color: #fb944aee;
     border-radius: 50%;
-    width: 650px;
-    height: 650px;
-    position: relative;
-    top: -500px;
-    left: -100px;
-    opacity: 0.3;
-    z-index: 10;
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 80px;
+    left: -50px;
+    opacity: 0.2;
 }
 
 .circled-background .circle2 {
-    background-color: #fb944aee;
+    background-color: #ef7823ee;
     border-radius: 50%;
-    width: 600px;
-    height: 600px;
-    position: relative;
-    top: -420px;
-    left: -85px;
-    opacity: 0.4;
-    z-index: 11;
+    width: 580px;
+    height: 580px;
+    position: absolute;
+    top: 150px;
+    left: 18px;
+    opacity: 0.22;
 }
 
 .circled-background .circle3 {
     background-color: #fb944aee;
     border-radius: 50%;
-    width: 550px;
-    height: 550px;
-    position: relative;
-    top: -370px;
-    left: -50px;
-    opacity: 0.6;
-    z-index: 12;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    opacity: 0.5;
 }
