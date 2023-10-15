@@ -178,7 +178,8 @@ header .naming h1 {
 
 .about h1 {
     text-align: center;
-    padding: 2rem 0;
+    padding: 6rem 0 2rem 0;
+    font-size: 35px;
 }
 
 .about p {
@@ -196,8 +197,8 @@ th, td {
     text-align: center;
 }
 th {
-    font-size: 14px;
+    font-size: 16px;
 }
 td {
-    font-size: 18px;
+    font-size: 20px;
 }
