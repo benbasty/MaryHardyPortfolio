@@ -170,3 +170,34 @@ header .naming h1 {
 }
 
 /* about section css styling */
+.about {
+    margin: 2rem 5rem;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+}
+
+.about h1 {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.about p {
+    text-align: center;
+    padding: 0.2rem 12rem 2rem 12rem;
+    font-size: 20px;
+}
+
+table {
+    margin: auto;
+    padding-bottom: 4rem;
+}
+th, td {
+    padding: 1px 10px;
+    text-align: center;
+}
+th {
+    font-size: 14px;
+}
+td {
+    font-size: 18px;
+}
