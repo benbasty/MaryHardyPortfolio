@@ -303,7 +303,7 @@ td {
 /* contact session */
 .contact {
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 130px 200px;
     background-color: #FFF8F3;
     gap: 100px;
@@ -317,4 +317,39 @@ td {
 .contact .message {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+}
+
+.contact .connect h1, .contact .message h1 {
+    margin-bottom: 2rem;
+}
+
+.contact .connect p {
+    font-size: 22px;
+}
+
+.contact .message input[type="text"], .contact .message input[type="email"], textarea {
+    margin-bottom: 2px;
+    width: 100%;
+    padding: 26px 38px;
+    transition: 0.5s ease;
+    border: 2px solid transparent;
+
+}
+
+.contact .message input[type="text"]:focus, .contact .message input[type="email"]:focus, textarea:focus {
+    border: 2px solid #FD6E0A;
+    border-radius: 8px;
+    box-shadow: 0 0 4px #FD6E0A;
+}
+
+.btn-submit {
+    border: 1px solid transparent;
+    padding: 12px 18px;
+    background: #FD6E0A;
+    border-radius: 4px;
+    transition: all 1s;
+    color: white;
+    width: 40%;
+    font-size: 28px;
 }
