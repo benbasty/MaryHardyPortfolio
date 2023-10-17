@@ -252,7 +252,7 @@ td {
 
 .resume .resume_summary {
     display: flex;
-    margin: 0 25rem;
+    margin: 0 20rem;
     gap: 1rem;
 }
 .education .mini_education_subtitle, .experience .mini_experience_subtitle {
