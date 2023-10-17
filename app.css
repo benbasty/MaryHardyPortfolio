@@ -252,7 +252,7 @@ td {
 
 .resume .resume_summary {
     display: flex;
-    margin: 0 20rem;
+    margin: 0 5rem;
     gap: 1rem;
 }
 .education .mini_education_subtitle, .experience .mini_experience_subtitle {
@@ -298,4 +298,23 @@ td {
 .resume .download_resume {
     text-align: center;
     margin-bottom: 2rem;
+}
+
+/* contact session */
+.contact {
+    display: flex;
+    height: 100vh;
+    padding: 130px 200px;
+    background-color: #FFF8F3;
+    gap: 100px;
+    margin: 2rem 5rem;
+}
+
+.contact .connect, .contact .message {
+    width: 50%;
+}
+
+.contact .message {
+    display: flex;
+    flex-direction: column;
 }
