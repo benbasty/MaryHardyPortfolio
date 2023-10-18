@@ -352,4 +352,17 @@ td {
     color: white;
     width: 40%;
     font-size: 28px;
+    margin-top: 1rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+    gap: 0.3rem;
+}
+
+.social img {
+    width: 36px;
+    height: 36px;
 }
