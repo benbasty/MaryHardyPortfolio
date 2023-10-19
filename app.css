@@ -74,7 +74,7 @@ header .naming h1 {
     letter-spacing: 5px;
 }
 .navbar_brand a .r {
-    color: red;
+    color: #FD6E0A;
 }
 
 .nav_link:nth-child(3) a, .banner .details button {
@@ -303,11 +303,11 @@ td {
 /* contact session */
 .contact {
     display: flex;
-    /* height: 100vh; */
+    height: 100vh;
     padding: 130px 200px;
     background-color: #FFF8F3;
     gap: 100px;
-    margin: 2rem 5rem;
+    margin: 2rem 5rem 0 5rem;
 }
 
 .contact .connect, .contact .message {
@@ -365,4 +365,46 @@ td {
 .social img {
     width: 36px;
     height: 36px;
+}
+
+/* media queries */
+@media (min-width:1201px) {
+    .banner .pic img {
+        width: 130%;
+    }
+}
+@media (max-width:1200px) {
+    .banner .pic img {
+        width: 130%;
+    }
+}
+
+@media (max-width:1024px) {
+    .banner .details {
+        margin-top: 0.7rem;
+    }
+    header .naming h1 {
+        font-size: 44px
+    }
+    .banner .details h1 {
+        font-size: 60px;
+    }
+    .banner .details p {
+        font-size: 18px;
+    }
+    .what-i-do .codingSkills div h1 {
+        font-size: 1rem;
+    }
+    .what-i-do .codingSkills div p {
+        font-size: 14px;
+    }
+    .what-i-do .codingSkills {
+        flex-wrap: wrap;
+    }
+    .what-i-do .codingSkills div {
+        width: 50%;
+    }
+    .contact {
+        padding: 50px 60px;
+    }
 }
