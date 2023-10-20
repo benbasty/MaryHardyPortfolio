@@ -187,12 +187,14 @@ header .naming h1 {
     padding: 0.2rem 12rem 2rem 12rem;
     font-size: 20px;
 }
+.table-container {
+    overflow-x: auto;
+}
 
 table {
     margin: auto;
     padding-bottom: 4rem;
-    border-collapse: collapse;
-    overflow-x: auto;
+    /* border-collapse: collapse; */
 }
 th, td {
     padding: 1px 10px;
@@ -595,6 +597,10 @@ td {
     }
     table {
         /* to be fixed later */
+        padding-bottom: 0;
+    }
+    th,td {
+        font-size: 8px;
     }
     .resume .subtitle_resume {
         font-size: 30px;
@@ -602,6 +608,62 @@ td {
     .resume .resume_summary {
         flex-direction: column;
     }
+    .btn-submit {
+        width: 50%;
+    }
 }
 
-/* remaining table stylings and 280px all*/
+/* 280px media query*/
+@media (max-width: 280px) {
+    header {
+        height: 75vh;
+    }
+    .hero .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar .navbar_brand {
+        width: 100%;
+    }
+    .navbar .navbar_items {
+        margin-top: 0;
+    }
+    .navbar .navbar_items .navbar_links {
+        gap: 1rem;
+        float: left;
+    }
+    .banner {
+        gap: 8rem;
+    }
+    .banner .details p {
+        font-size: 8px;
+    }
+    .banner .pic img {
+        left: 61px;
+        top: -342px;
+    }
+    .about {
+        margin: 2rem 1rem;
+    }
+    td {
+        font-size: 5.5px;
+    }
+    .what-i-do .main-wid-text {
+        margin: 2rem 1.5rem 3rem 1.5rem;
+        text-align: center;
+        font-size: 20px;
+    }
+    .what-i-do .codingSkills {
+        margin: 2rem 1.5rem;
+        gap: 1rem;
+    }
+    .resume .subtitle_resume {
+        font-size: 20px;
+    }
+    .contact {
+        margin: 2rem 1.5rem 0 1.5rem;
+    }
+    .btn-submit {
+        width: 80%;
+    }
+}
